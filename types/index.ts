@@ -5,9 +5,9 @@ export interface CustomButtonProps {
   containerStyles?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
   btnType?: "button" | "submit";
-  textStyles?: string,
-  rightIcon?: string,
-  isDisabled?: boolean,
+  textStyles?: string;
+  rightIcon?: string;
+  isDisabled?: boolean;
 }
 
 export interface CustomFilterProps {
@@ -19,17 +19,17 @@ export interface SearchManufacturerProps {
   setManuFacturer: (manufacturer: string) => void;
 }
 
-export interface CarCardProps {
+export interface CarProps {
   city_mpg: number;
-class:String;
-combination_mpg: number;
-cylinders: number;
-displacement: number;
-drive:String;
-fuel_type:String;
-highway_mpg: number;
-make:String;
-model:String;
-transmission:String;
-year: number;
+  class: String;
+  combination_mpg: number;
+  cylinders: number;
+  displacement: number;
+  drive: String;
+  fuel_type: String;
+  highway_mpg: number;
+  make: String;
+  model: String;
+  transmission: String;
+  year: number;
 }
